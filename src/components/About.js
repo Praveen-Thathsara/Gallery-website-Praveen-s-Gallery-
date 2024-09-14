@@ -1,0 +1,101 @@
+import React from 'react';
+import { Carousel } from 'react-bootstrap';
+import image1 from '../assets/images/caro1.jpg';
+import image2 from '../assets/images/caro2.jpg';
+import image3 from '../assets/images/caro3.jpg';
+import image4 from '../assets/images/caro4.jpg';
+import image5 from '../assets/images/caro5.jpg';
+
+
+
+const About = () => {
+  return (
+    <div>
+      <br></br>
+      <h2 className="aboutus">About Us</h2>
+      <p className="aboutpara1"> Welcome to our nature and aesthetic photo gallery, a space where the beauty of the natural world comes alive through breathtaking imagery. Our journey began with a simple love for nature and a desire to showcase its boundless beauty in a way that resonates with the soul. Every photograph in our gallery is a testament to the magnificence of the world around us—from the quiet moments in lush forests to the vibrant hues of blooming flowers and the majestic stillness of towering mountains.<br></br><br></br>
+
+We believe that nature is more than just a backdrop; it is a source of inspiration, peace, and connection. Our photographers are dedicated to capturing the raw, unfiltered beauty of the outdoors, focusing on everything from grand landscapes to the smallest details that often go unnoticed. Through our carefully curated collections, we aim to provide an escape from the busyness of everyday life and offer a moment of serenity and reflection.
+</p>
+      <Carousel className="caro" fade>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image1} alt="First slide" />
+          <Carousel.Caption className="caro-caption">
+            <h3>Sky</h3>
+            <p>"The sky is the daily bread of the eyes."<br></br>
+            Ralph Waldo Emerson
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image2} alt="Second slide" />
+          <Carousel.Caption className="caro-caption">
+            <h3>Sky</h3>
+            <p>"No one sees what is before his feet: they scan the tracks of heaven."<br></br>
+            Marcus Tullius Cicero
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image3} alt="Third slide" />
+          <Carousel.Caption className="caro-caption">
+            <h3>Sky</h3>
+            <p>"The sky is the ultimate art gallery just above us."<br></br>
+            Ralph Waldo Emerson
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image4} alt="First slide" />
+          <Carousel.Caption className="caro-caption">
+            <h3>Sky</h3>
+            <p>"Only from the heart can you touch the sky."<br></br>
+            Rumi</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img className="d-block w-100" src={image5} alt="First slide" />
+          <Carousel.Caption className="caro-caption">
+            <h3>Sky</h3>
+            <p>"The sky is an infinite movie to me. I never get tired of looking at what's happening up there."<br></br>
+            K.D. Lang
+            </p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
+      <br></br><br></br>
+      <figure className="text-center">
+  <blockquote className="blockquote">
+    <p>"In every walk with nature, one receives far more than he seeks."</p>
+  </blockquote>
+  <figcaption className="blockquote-footer">
+  John Muir <cite title="Source Title"></cite>
+  </figcaption>
+</figure>
+<br></br>
+      
+      <p className="aboutpara1">At the heart of our gallery is a commitment to bringing you closer to the natural world. Whether you're seeking visual inspiration, an appreciation for the environment, or simply a moment of calm, our photographs are crafted to evoke emotions and inspire a deeper connection to nature.<br></br><br></br>
+
+We invite you to explore our gallery, where every image has been thoughtfully captured and presented to highlight the unique and ever-changing beauty of the outdoors. Whether you're here to admire the art of photography or to immerse yourself in the tranquility of nature, we hope our gallery leaves you feeling inspired, rejuvenated, and connected to the world around you.<br></br><br></br>
+
+Thank you for visiting our space, and we look forward to sharing the beauty of nature with you.
+ </p><br></br><br></br>
+
+ <header>Some of my Videos</header><br></br><br></br>
+ <div className="row">
+  <div className="col-6">
+
+
+
+  </div>
+  <div className="col-6">
+
+
+  </div>
+
+ </div>
+    </div>
+  );
+};
+
+export default About;

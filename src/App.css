@@ -1,0 +1,234 @@
+.App {
+  text-align: center;
+  background-color:rgb(255, 255, 255);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+}
+
+.navbar .links a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.navbar .links a:hover {
+  text-decoration: none;
+  color: rgba(195, 195, 201, 0.805);
+}
+
+.App {
+  text-align: center;
+  padding: 2rem;
+}
+
+h2 {
+  color: #333;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 2rem 0;
+}
+
+.image-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.image-card img {
+  width: 100%;
+  height: auto;
+}
+
+.image-card p {
+  padding: 0.5rem;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label {
+  margin: 10px 0 5px;
+  text-align: left;
+  color: #333;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.card1{
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.123);
+  padding: 20px;
+  margin: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  max-width: 550px;
+  display: inline-block;
+}
+.card1 .mypropic{
+  
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 30px;
+
+}
+
+.caro{
+  position: relative;
+    width: 100%;
+    max-width: 1500px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactpage{
+  background-color: black;
+  color: white;
+}
+
+.welcomeheader{
+  font-size: 4em;
+  background-color: #000000;
+  color: #ffffff;
+  padding: 70px;
+  
+  margin: 5px;
+}
+
+h2.contactus{
+  
+  background-color: #434343;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 5px;
+  width: 35%;
+  text-align: center;
+}
+.contactseteka{
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  width: 100%;
+}
+.contform{
+  width: 50%;
+}
+.aboutpara1{
+  margin: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size:large;
+  font-style: italic;
+  
+  
+}
+.aboutus{
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+}
+
+
+.social-icons i {
+
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 40px;
+  color: #000000;
+}
+
+.condetails{
+  font-size:large;
+
+}
+
