@@ -1,8 +1,19 @@
-// Gallery.js
 import React from 'react';
 import ImageCard from './ImageCard';
 
-const Gallery = ({ images }) => {
+const Gallery = () => {
+  const images = [
+    { url: '/images/me2.jpg', alt: 'Image 1', caption: 'Beautiful Scenery 1' },
+    { url: '/images/6.jpg', alt: 'Image 2', caption: 'Beautiful Scenery 2' },
+    { url: '/images/7.jpg', alt: 'Image 3', caption: 'Beautiful Scenery 3' },
+    { url: '/images/me.jpg', alt: 'Image 4', caption: 'Beautiful Scenery 4' },
+    { url: '/images/8.jpg', alt: 'Image 5', caption: 'Beautiful Scenery 5' },
+    { url: '/images/coconuttree.jpg', alt: 'Image 6', caption: 'Beautiful Scenery 6' },
+    { url: '/images/9.jpg', alt: 'Image 7', caption: 'Beautiful Scenery 7' },
+    { url: '/images/10.jpg', alt: 'Image 8', caption: 'Beautiful Scenery 8' },
+    { url: '/images/11.jpg', alt: 'Image 9', caption: 'Beautiful Scenery 9' },
+  ];
+
   return (
     <div className="gallery">
       {images.map((image, index) => (
@@ -13,3 +24,4 @@ const Gallery = ({ images }) => {
 };
 
 export default Gallery;
+
