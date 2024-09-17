@@ -203,3 +203,11 @@ h2.contactus{
 
 }
 
+.custom-pagination-link {
+  color: black !important;
+}
+
+.custom-pagination-link:hover {
+  color: gray !important; 
+}
+
