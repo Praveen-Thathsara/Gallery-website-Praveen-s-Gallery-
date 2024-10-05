@@ -6,10 +6,11 @@ import image3 from '../assets/images/caro3.jpg';
 
 const Home = () => {
   return (
-    <div>
-      <br></br><br></br>
+    <div className="row">
+      <div className="col-6">
       <h1 className="welcomeheader">Welcome to My View</h1>
-      <br></br><br></br><br></br>
+      </div>
+      <div className="col-6">
       <Carousel className="caro" fade>
         <Carousel.Item>
           <img className="d-block w-100" src={image1} alt="First slide" />
@@ -39,6 +40,7 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
+        </div>
     </div>
   );
 };

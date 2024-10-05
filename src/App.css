@@ -11,11 +11,11 @@ body {
   color: white;
   padding: 1rem;
   text-align: center;
-  position: fixed;
+  position: sticky;
   top: 0;
-  left:0;
-  width: 100%;
   z-index: 1000;
+  left:0;
+  width: 100%; 
 margin: 0;
 display: flex;
 }
@@ -95,7 +95,7 @@ input, textarea {
   font-size: 1rem;
 }
 
-button {
+ .submitbtn{
   margin-top: 15px;
   padding: 10px;
   border: none;
@@ -105,7 +105,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+.submitbtn:hover {
   background-color: #555;
 }
 
@@ -211,3 +211,28 @@ h2.contactus{
   color: gray !important; 
 }
 
+.aboutlinkpara{
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+.linkbtn{
+  margin-top: 15px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+.aboutlink a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.aboutlink a:hover {
+  text-decoration: none;
+  color: rgba(195, 195, 201, 0.805);}

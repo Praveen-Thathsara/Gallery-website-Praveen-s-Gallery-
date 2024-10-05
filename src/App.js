@@ -10,6 +10,10 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from './components/Footer';
 import 'bootstrap-icons/font/bootstrap-icons.css';
+/*import React, { useEffect, useRef } from 'react';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';*/
+
 
 const App = () => {
   return (
