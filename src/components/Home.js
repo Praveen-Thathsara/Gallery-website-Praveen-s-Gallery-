@@ -6,9 +6,15 @@ import image3 from '../assets/images/caro3.jpg';
 
 const Home = () => {
   return (
+  
+    <div className="home">
+      <header>
+        <h1 className="welcomeheader">Welcome to My View</h1>
+      </header>
+      <div className="marg">
     <div className="row">
       <div className="col-6">
-      <h1 className="welcomeheader">Welcome to My View</h1>
+      
       </div>
       <div className="col-6">
       <Carousel className="caro" fade>
@@ -41,6 +47,8 @@ const Home = () => {
         </Carousel.Item>
         </Carousel>
         </div>
+    </div>
+    </div>
     </div>
   );
 };

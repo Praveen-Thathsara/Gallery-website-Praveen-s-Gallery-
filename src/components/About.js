@@ -11,6 +11,8 @@ import image5 from '../assets/images/caro5.jpg';
 
 const About = () => {
   return (
+    <div className="abou">
+    <div className="marg">
     <div>
       <h2 className="aboutus">About Us</h2>
       <div className="row">
@@ -114,6 +116,8 @@ Thank you for visiting our space, and we look forward to sharing the beauty of n
 
  </div>
  <br></br>
+    </div>
+    </div>
     </div>
   );
 };

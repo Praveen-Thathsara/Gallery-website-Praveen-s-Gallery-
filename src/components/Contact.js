@@ -14,7 +14,8 @@ const Contact = () => {
   };
 
   return (
-    <div >
+    <div className="cont">
+    <div className="marg">
     <Card />
     <div className="row">
       <div className="col-6">
@@ -36,6 +37,7 @@ const Contact = () => {
       </div>
     </div>
     <div className="col-6">
+      <div className="contactseteka2">
      
       <h2><i class="bi bi-telephone-fill"></i>
       </h2>
@@ -52,6 +54,8 @@ const Contact = () => {
           <a href="https://youtube.com/@pravlogz?si=jg5vy6Y2QR0eYoYp"><i className="bi bi-youtube"></i></a>
         </div>
       
+    </div>
+    </div>
     </div>
     </div>
     </div>

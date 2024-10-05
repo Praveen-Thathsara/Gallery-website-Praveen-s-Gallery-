@@ -15,6 +15,8 @@ const Gallery = () => {
   ];
 
   return (
+    <div className="galbg">
+      <div className="marg">
     <div calssName="row">
     <div className="gallery">
       {images.map((image, index) => (
@@ -40,6 +42,8 @@ const Gallery = () => {
       </li>
     </ul>
   </nav>
+</div>
+</div>
 </div>
 </div>
 
