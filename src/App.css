@@ -411,15 +411,96 @@ h2.contactus{
     background-position: center; 
     background-repeat: no-repeat;
 }
-.vid{
-  background-image: url('./assets/images/video.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-}
+
 .cont{
   background-image: url('./assets/images/contact.jpg');
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat;
 }
+
+/* Container for the gallery */
+.video-gallery {
+  padding: 20px;
+  text-align: center;
+  background-image: url('./assets/images/video.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+
+.video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.video-container {
+  width: 80%;
+  max-width: 900px;
+  max-height: 80%;
+  overflow: hidden;
+  background: black; /* Optional: adds a background to the modal to prevent white gaps */
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Maintain aspect ratio without cropping */
+  border-radius: 10px;
+}
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+.video-block {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  cursor: pointer;
+  overflow: hidden; /* Prevents content from overflowing */
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, filter 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.video-block:hover .thumbnail {
+  transform: scale(1.1); /* Zoom in slightly */
+  filter: brightness(0.7); /* Darken the thumbnail */
+}
+
+/* Optional: Add an overlay effect when hovering */
+.video-block::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.video-block:hover::before {
+  opacity: 1; /* Show overlay on hover */
+}
+
+
+

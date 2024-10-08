@@ -14,6 +14,19 @@ const Gallery = () => {
     { url: '/images/10.jpg', alt: 'Image 8' },
     { url: '/images/12.jpg', alt: 'Image 12' },
     { url: '/images/13.jpg', alt: 'Image 13' },
+    { url: '/images/14.jpg', alt: 'Image 14' },
+    { url: '/images/15.jpg', alt: 'Image 15' },
+    { url: '/images/16.jpg', alt: 'Image 16' },
+    { url: '/images/17.jpg', alt: 'Image 17' },
+    { url: '/images/18.jpg', alt: 'Image 18' },
+    { url: '/images/19.jpg', alt: 'Image 19' },
+    { url: '/images/20.jpg', alt: 'Image 20' },
+    { url: '/images/21.jpg', alt: 'Image 21' },
+    { url: '/images/22.jpg', alt: 'Image 22' },
+    { url: '/images/23.jpg', alt: 'Image 23' },
+    { url: '/images/24.jpg', alt: 'Image 24' },
+    { url: '/images/25.jpg', alt: 'Image 25' },
+
   ];
 
   return (
