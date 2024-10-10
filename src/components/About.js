@@ -149,17 +149,6 @@ const About = () => {
           </figure>
           <br></br>
 
-          <div className="row">
-            <div className="col-12">
-              <div className="photorow">
-                <div><img src={image1} alt="image1" className="photorowpic"></img></div>
-                <div><img src={image2} alt="image2" className="photorowpic"></img></div>
-                <div><img src={image3} alt="image3" className="photorowpic"></img></div>
-              </div>
-            </div>
-
-          </div>
-
           <br></br>
           <br></br>
 

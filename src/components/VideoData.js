@@ -17,6 +17,12 @@ const videos = [
       url: '/assets/videos/vid3.mp4',
       thumbnail: '/assets/images/thum3.jpg',
     },
+    {
+      id: 4,
+      title: '',
+      url: '/assets/videos/vid4.mp4',
+      thumbnail: '/assets/images/thum4.jpg',
+    },
     // Add more videos as needed
   ];
   

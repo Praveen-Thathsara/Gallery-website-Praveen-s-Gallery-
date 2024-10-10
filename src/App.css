@@ -1,4 +1,3 @@
-
 body {
   font-family: Arial, sans-serif;
   background-color: #ffffff;
@@ -6,7 +5,6 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  
 }
 
 .navbar {
@@ -17,10 +15,10 @@ body {
   position: fixed;
   top: 0;
   z-index: 1000;
-  left:0;
-  width: 100%; 
-margin: 0;
-display: flex;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
 }
 
 .navbar .links a {
@@ -34,7 +32,7 @@ display: flex;
   text-decoration: none;
   color: rgba(195, 195, 201, 0.805);
 }
-.navbrand{
+.navbrand {
   text-decoration: none;
   color: white;
   font-size: 1em;
@@ -48,40 +46,37 @@ display: flex;
   height: 100%;
   overflow: hidden;
   text-align: center;
-  
 }
 
 h2 {
   color: #333;
 }
 
-
 .gallery {
-  column-count: 3; 
-  column-gap: 1rem; 
+  column-count: 3;
+  column-gap: 1rem;
 }
 
 .image-card {
-  background-color: #000; 
+  background-color: #000;
   margin-bottom: 1rem;
   break-inside: avoid; /* Prevent image cards from breaking between columns */
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
-  opacity: 0; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
   transform: translateY(-50px); /* Start above */
-  animation: fadeIn 1s forwards; 
-
+  animation: fadeIn 1s forwards;
 }
 @keyframes fadeIn {
   to {
-    opacity: 1; 
+    opacity: 1;
     transform: translateY(0); /* Move to original position */
   }
 }
 
 .image-card img {
   width: 100%; /* Ensure images take full width */
-  height: auto; 
+  height: auto;
   display: block; /* Prevent extra space under images */
 }
 
@@ -89,6 +84,24 @@ h2 {
   color: white; /* Caption text */
   text-align: center;
   margin-top: 5px;
+}
+.modal-content {
+  background-color: transparent !important;
+  border: none;
+}
+
+.modal-header,
+.modal-footer {
+  background-color: transparent !important;
+  border: none;
+}
+
+.modal-body {
+  background-color: transparent !important;
+}
+
+.modal-backdrop {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark backdrop */
 }
 
 /* Pagination styling */
@@ -100,8 +113,6 @@ h2 {
 .custom-pagination-link:hover {
   color: #007bff; /* Change color on hover */
 }
-
-
 
 form {
   display: flex;
@@ -116,14 +127,15 @@ label {
   color: #333;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 10px;
   border-radius: 5px;
   border: 1px solid #ccc;
   font-size: 1rem;
 }
 
- .submitbtn{
+.submitbtn {
   margin-top: 15px;
   padding: 10px;
   border: none;
@@ -137,9 +149,7 @@ input, textarea {
   background-color: #555;
 }
 
-.card1{
-  
-  
+.card1 {
   margin: 10px;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -148,8 +158,10 @@ input, textarea {
   max-height: 450px;
   display: inline-block;
   opacity: 0; /* Start with the card invisible */
-  transform: translateY(-50px); /* Start above its final position this translate X or Y represent the deriection */
-  animation: fadeIn 1s forwards;  /*time*/
+  transform: translateY(
+    -50px
+  ); /* Start above its final position this translate X or Y represent the deriection */
+  animation: fadeIn 1s forwards; /*time*/
 }
 
 @keyframes fadeIn {
@@ -158,25 +170,23 @@ input, textarea {
     transform: translateY(0); /* Move to original position */
   }
 }
-.card1 .mypropic{
-  
+.card1 .mypropic {
   max-width: 50%;
   height: auto;
   border-radius: 50%;
   margin-bottom: 30px;
-
 }
 
-.caro{
+.caro {
   position: relative;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0;
-    overflow: hidden;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 1400px;
+  margin: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
-.contactpage{
+.contactpage {
   background-color: black;
   color: white;
 }
@@ -190,7 +200,6 @@ input, textarea {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  
 }
 
 .welcome-video {
@@ -201,7 +210,7 @@ input, textarea {
   height: 100vh;
   object-fit: cover; /* Cover entire background */
   z-index: -1; /* Send video behind the text */
-   /* Center the video */
+  /* Center the video */
 }
 
 .welcome-text {
@@ -231,7 +240,6 @@ input, textarea {
   margin-left: 50px;
   margin-top: 80px;
   margin-right: 100px;
-  
 }
 .welcome-text2 button {
   margin-left: 400px;
@@ -260,9 +268,7 @@ input, textarea {
   transform: translateY(-5px); /* Slight hover lift */
 }
 
-
-h2.contactus{
-  
+h2.contactus {
   background-color: #434343;
   color: #ffffff;
   padding: 10px;
@@ -271,33 +277,31 @@ h2.contactus{
   width: 35%;
   text-align: center;
 }
-.contactseteka{
+.contactseteka {
   align-items: center;
   flex-direction: column;
   display: flex;
   width: 100%;
-  opacity: 0; 
-  transform: translateX(-50px); 
-  animation: fadeIn 1s forwards;  
-}
-.contform{
-  width: 50%;
-}
-.contactseteka2{
-  margin-top: 50px;
-  margin-left: 320px;
-  opacity: 0; 
-  transform: translateX(50px); 
+  opacity: 0;
+  transform: translateX(-50px);
   animation: fadeIn 1s forwards;
 }
-.aboutpara1{
-  margin-top: 80px;
-  font-size:large;
-  font-style: italic;
-  
-  
+.contform {
+  width: 50%;
 }
-.aboutus{
+.contactseteka2 {
+  margin-top: 50px;
+  margin-left: 320px;
+  opacity: 0;
+  transform: translateX(50px);
+  animation: fadeIn 1s forwards;
+}
+.aboutpara1 {
+  margin-top: 110px;
+  font-size: large;
+  font-style: italic;
+}
+.aboutus {
   background-color: #282c34;
   color: white;
   padding: 10px;
@@ -339,19 +343,15 @@ h2.contactus{
   }
 }
 
-
-
 .social-icons i {
-
   margin-right: 20px;
   margin-left: 20px;
   font-size: 40px;
   color: #000000;
 }
 
-.condetails{
-  font-size:large;
-
+.condetails {
+  font-size: large;
 }
 
 .custom-pagination-link {
@@ -359,15 +359,15 @@ h2.contactus{
 }
 
 .custom-pagination-link:hover {
-  color: gray !important; 
+  color: gray !important;
 }
 
-.aboutlinkpara{
+.aboutlinkpara {
   padding-left: 60px;
   padding-right: 60px;
 }
 
-.linkbtn{
+.linkbtn {
   margin-top: 15px;
   padding: 10px;
   border: none;
@@ -386,47 +386,47 @@ h2.contactus{
 
 .aboutlink a:hover {
   text-decoration: none;
-  color: rgba(195, 195, 201, 0.805);}
+  color: rgba(195, 195, 201, 0.805);
+}
 
-  .home{
-    background-image: url('./assets/images/homee.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
-  }
-.marg{
+.home {
+  background-image: url("./assets/images/homee.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.marg {
   padding: 2rem;
 }
 
-.galbg{
-  background-image: url('./assets/images/bggal.jpg');
-    background-size: cover; 
-    background-position:center; 
-    background-repeat: no-repeat;
-    
+.galbg {
+  background-image: url("./assets/images/bggal.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-.abou{
-  background-image: url('./assets/images/about.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+.abou {
+  background-image: url("./assets/images/about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-.cont{
-  background-image: url('./assets/images/contact.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+.cont {
+  background-image: url("./assets/images/contact.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* Container for the gallery */
 .video-gallery {
   padding: 20px;
   text-align: center;
-  background-image: url('./assets/images/video.jpg');
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;
+  background-image: url("./assets/images/video.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .video-modal {
@@ -486,7 +486,7 @@ h2.contactus{
 
 /* Optional: Add an overlay effect when hovering */
 .video-block::before {
-  content: '';
+  content: "";
   position: absolute;
   top: 0;
   left: 0;
@@ -501,6 +501,3 @@ h2.contactus{
 .video-block:hover::before {
   opacity: 1; /* Show overlay on hover */
 }
-
-
-
