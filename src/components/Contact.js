@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Card from "./Card.js";
+import image1 from "../assets/images/fb1.jpg";
 import image2 from "../assets/images/fb2.jpg";
 import image3 from "../assets/images/fb3.jpg";
 import image4 from "../assets/images/fb4.jpg";
@@ -92,6 +93,9 @@ const Contact = () => {
         <div className="row">
           <div className="col-12">
             <div className="photorow">
+            <div>
+                <img src={image1} alt="image1" className="photorowpic"></img>
+              </div>
               <div>
                 <img src={image2} alt="image1" className="photorowpic"></img>
               </div>
